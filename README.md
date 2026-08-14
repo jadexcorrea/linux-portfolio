@@ -81,6 +81,11 @@
 * gzip		- Compresses files into high-efficientcy binary blocks (.gz)
 * tar -xzvf	- Uncompresses adn extracts a multi-layer gzip tarball natively
 * rm		- Permanently purges redundant or duplicate uncompressed storage payloads
+
+## Verison Control & Open-Source Repositories
+* git init	- Transforms a local filesystem directory into a Git tracking repository
+* git add	- Stages Targeted file assets into the version control preparation index
+* git commit	- Commits staged snapshots permanently to local repository history metrics
  
 # Cybersecurity Portfolio Assignments
 
@@ -186,3 +191,12 @@
 	3. Deployed the cryptographic 'gzip' compression engine to shrink the physical storage footprint into a 'tar.gz' payload.
 	4. Performed proactive filesystem auditing by manually isolating and deleting duplicate uncompressed storage payloads ('rm') to prevent data redundancy.
 * Security Outcomes: Mastered advanced file-system bundling, live archive triage, evidence preservation mechanics, and storage surface minimization tactics.
+
+## Assignment 12: Distibuted Version Control Initialization & Portfolio Structuring
+* Objective: Configure local version control tracking systems and stage technical portfolio logs.
+* Actions Taken: 
+	1. Installed and configured global crytographic signature identities within the distribured version suite ('git').
+	2. Executed local repository initializations ('git init') to track desktop security assets.
+	3. Managed local indexing pipelines ('git add') to stage master markdown project summaries.
+	4. Engineered permanent repository baseline checkpoints ('git commit') utilizing descriptive deployment notes.
+Security Outcomes: Mastered source code auditing basics, configuration version control, and infrastructure documentation deployment pipelines.
