@@ -86,7 +86,12 @@
 * git init	- Transforms a local filesystem directory into a Git tracking repository
 * git add	- Stages Targeted file assets into the version control preparation index
 * git commit	- Commits staged snapshots permanently to local repository history metrics
- 
+
+## Automated Task Scheduling & Daemon Engineering
+* crontab -e	- Opens the native system time-scheduler configuration matrix
+* * * * * *		- Five-axis timing parameter indicating execution intervals every consecutive minute
+* crontab -r	- Purges all active scheduled cron tasks from the user profile database
+
 # Cybersecurity Portfolio Assignments
 
 ## Assignment 1: Automated Compromised Accounts& Live Port Triage
@@ -200,3 +205,13 @@
 	3. Managed local indexing pipelines ('git add') to stage master markdown project summaries.
 	4. Engineered permanent repository baseline checkpoints ('git commit') utilizing descriptive deployment notes.
 Security Outcomes: Mastered source code auditing basics, configuration version control, and infrastructure documentation deployment pipelines.
+
+## Assignment 13: Decoupled System Automation & Temporal Daemon Configuration
+* Objective: Configure low-level system cron daemons to execute automated security scans without human intervention.
+Action Taken:
+	1. Initialized the system's runtime scheduler framework ('crontab -e') using native text manipulation.
+	2. Engineered a five-axis precision timing string ('* * * * *') to establish minute-interval execution triggers.
+	3. Intergrated active network pipeline telemetry arrays ('ss -a' | grep -i') into the automated background runtime environment.
+	4. Monitored real-time filesystem adjustments to observe automated asset materialization ('auto_network_log.txt').
+	5. Executed post-operational cleanup routines ('crontab - r') to strip out volatile task loops and protect system capacity thresholds.
+* Security Outcomes: Mastered autonomous persistence techniques, script automation architecture, amd host-level cron security controls.
