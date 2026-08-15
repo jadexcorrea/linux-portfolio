@@ -92,6 +92,10 @@
 * * * * * *		- Five-axis timing parameter indicating execution intervals every consecutive minute
 * crontab -r	- Purges all active scheduled cron tasks from the user profile database
 
+## Text Slicing, Stream Editing & Log Parsing
+* awk '{print $X}'	- Scans text files line-by-line and extracts speicific space-separated columns
+* sed 's/old/new/g'	- Stream editor utilized to search, replace, and modify text streams on the fly
+
 # Cybersecurity Portfolio Assignments
 
 ## Assignment 1: Automated Compromised Accounts& Live Port Triage
@@ -215,3 +219,12 @@ Action Taken:
 	4. Monitored real-time filesystem adjustments to observe automated asset materialization ('auto_network_log.txt').
 	5. Executed post-operational cleanup routines ('crontab - r') to strip out volatile task loops and protect system capacity thresholds.
 * Security Outcomes: Mastered autonomous persistence techniques, script automation architecture, amd host-level cron security controls.
+
+## Assignment 14: Advanced Log Parsing & Diagnostic Sanitization
+* Objective: Implement programmatic text filters to isolate compromise variables and sanitize forensic logs.
+* Actions Taken:
+	1. Generated an enterprise-grade unstructured authentication log asset ('server.log') containing mixed credential metadata.
+	2. Deployed column-parsing algorithms ('awk') to strip out environment noise and isolate target usernames and source IP addresses.
+	3. Engineered automated stream search-and-replace arrays ('sed') to find sensitive system variables and redact them dynamically.
+* Security Outcomes: Acquired foundational security data analysis capabilities, high-volume log triage mastery, and text-manipulation fluency.
+
