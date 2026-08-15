@@ -96,6 +96,10 @@
 * awk '{print $X}'	- Scans text files line-by-line and extracts speicific space-separated columns
 * sed 's/old/new/g'	- Stream editor utilized to search, replace, and modify text streams on the fly
 
+## Identity Management & Asset Ownership Controls
+* chown		- Changes the user ownership properties of a target filesystem asset
+* chgrp		- Modifies the group ownership assignments of a target filesystem asset
+
 # Cybersecurity Portfolio Assignments
 
 ## Assignment 1: Automated Compromised Accounts& Live Port Triage
@@ -228,3 +232,11 @@ Action Taken:
 	3. Engineered automated stream search-and-replace arrays ('sed') to find sensitive system variables and redact them dynamically.
 * Security Outcomes: Acquired foundational security data analysis capabilities, high-volume log triage mastery, and text-manipulation fluency.
 
+## Assignment 15: Discretionary Access Control & System Ownership Hardening
+* Objective: Audit host-level asset ownership structure and reassign files to privileged security groups.
+* Actions Taken:
+	1. Provisioned a sensitive corporate database asset ('payroll.db') within teh user workspace.
+	2. Evaluated host ownership metrics utilizing detailed directory listing ('ls -l').
+	3. Reassigned group ownership transformations ('sudo chown root') to bind the data asset to an administrative security group.
+	4. Executed root-level ownership transformations ('sudo chown root') to strip personal standard user controls and lock the asset down to top-level administrative enforcement.
+* Security Outcomes: Mastered advanced multi-tenant permission controls, Identity and Access Management principles, and privilege isolation workflows.
