@@ -104,6 +104,11 @@
 * alias		- Maps complex, multi-parameter command strings into user-defined shortcut triggers
 * unalias	- Purges custom shortcut definitions from active terminal environment memory
 
+## Strean Redirection & File Descriptor Manipulation
+* 2>		- Redirects the Standard Error stream (stderr / descriptor 2) to specific target file
+* 2> /dev/null	- Discards standard error data completely by funneling it into the system null device
+* 2>&1		- Merges the Standard Error stream directly into the Standard Output stream descriptor channel
+
 # Cybersecurity Portfolio Assignments
 
 ## Assignment 1: Automated Compromised Accounts& Live Port Triage
@@ -252,3 +257,13 @@ Action Taken:
 	2. Executed real-time volatile memory audits (`alias`) to review active command mappings for unauthorized persistence vectors.
 	3. Deployed termination sequences (`unalias nt`) to clear temporary customization matrices from the active shell environment cache.
 * Security Outcomes: Mastered operational velocity automation, command-line hijacking defense mechanisms, and environment macro manipulation.
+
+## Assignment 17: Multi-Stream I/O Redirection & Error Output Auditing
+* Isolate, silence, and merge discrete system data streams to build clean automated logging pipelines.
+* Actions Taken:
+	1. Triggered low-level access validation errors by prompting non-privileged reads on restricted configuration targets (`cat /etc/shadow`).
+	2. Intercepted volatile system error streams utilizing explicit file descriptors (`2>`) to parse exceptions into isolated logging matrices.
+	3. Engineered silent automation architectures by funneling error notifications into hardening black holes (`2> /dev/null`).
+	4. Strcutured multi-stream convergence paths (`2>&1`) to merge execution pipelines into unified data logs.
+* Security Outcomes: Advanced comprehension of operational input/output structures, automated script silencing techniques, and professional diagnostic data handling.
+
